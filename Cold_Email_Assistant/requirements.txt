@@ -1,0 +1,25 @@
+# --- Core LangGraph / LangChain stack ---
+langgraph==0.2.60
+langchain-openai==0.2.14
+langchain-core==0.3.28
+
+# --- Config & validation ---
+python-dotenv==1.0.1
+pydantic==2.10.4
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# --- Gmail API (Google) ---
+google-api-python-client==2.154.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# --- HTTP client for Apollo/Clay enrichment APIs ---
+requests==2.32.3
+
+# --- CLI formatting for the human-review terminal gate ---
+rich==13.9.4
+
+# --- API server (server.py) + browser dashboard support ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
