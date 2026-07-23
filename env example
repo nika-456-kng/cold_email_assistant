@@ -1,0 +1,9 @@
+# Logging & Mode
+LOG_LEVEL=INFO
+GMAIL_DELIVERY_MODE=draft
+DRY_RUN=true
+
+# API Keys (Placeholders)
+OPENAI_API_KEY=sk-proj-your-openai-key-here
+APOLLO_API_KEY=your-apollo-key-here
+CLAY_API_KEY=your-clay-key-here
